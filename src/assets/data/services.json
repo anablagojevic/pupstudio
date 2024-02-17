@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": {
+            "path": "foodicon.png",
+            "alt": "Dog-icon"
+        },
+        "title": "Best & Quality Products",
+        "description": "You can find dog food and snacks using only fresh, ethical ingredients, and 100% handmade clothes and customized dog products with cute designs."
+    },
+    {
+        "id": 2,
+        "img": {
+            "path": "toys.png",
+            "alt": "Cat-icon"
+        },
+        "title": "Best toys for your pet",
+        "description": "You can also find the most interesting toys for your pets! With our natural materials and wide imagination your pets will never be bored! There is something for everyone!"
+    },
+    {
+        "id": 3,
+        "img": {
+            "path": "dogicon.png",
+            "alt": "dogs"
+        },
+        "title": "Let your pet choose their toys!",
+        "description": "In our store we have a special part with toys from our collection and you can simply bring you pet and let them choose the toy that is most interesting for them!"
+    },
+    {
+        "id": 4,
+        "img": {
+            "path": "cons.png",
+            "alt": "cons"
+        },
+        "title": "Consultations",
+        "description": "If you have any doubts about whitch foo to buy for your pet, feel free to step by and ask us whatever you want! Yet, if you prefer to write us an email, you can do that on pupstudio@gmail.com!"
+    }
+]

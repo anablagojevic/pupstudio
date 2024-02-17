@@ -1,0 +1,39 @@
+<div class="container-fluid text-center mt-5">
+    <div class="row">
+        <div class="col-4">
+            <img src="../../../../assets/images/p1.png">
+            <p class="text-muted mt-2" style="font-size: large;">10% discount for 100&#8364; orders!</p>
+        </div>
+        <div class="col-4">
+            <img src="../../../../assets/images/p2.png">
+            <p class="text-muted mt-2" style="font-size: large;">Gift cards for 50,100,200&#8364;</p>
+        </div>
+        <div class="col-4">
+            <img src="../../../../assets/images/p3.png">
+            <p class="text-muted mt-2" style="font-size: large;">Follow us on <span class="text-dark">pup_studio</span> for pet events!</p>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-lg-3">
+            <h3 class="my-3" style="color: rgb(0, 101, 50);">Filters</h3>
+            <div class="row mx-1">
+                <select class="form-control" [(ngModel)]="selectedCategoryId" (change)="filterProductsByCategory()">
+                    <option value="0" selected>Select category</option>
+                    <option *ngFor="let c of categories" value="{{c.id}}">{{c.name}}</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let p of filteredProducts">    
+                    <app-product [productData]="p"></app-product>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

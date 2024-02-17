@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.pic{
+  background-position: -100px -80px;
+  height: 800px;
+  width: 100%;
+}
+.transparent{
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.ht{
+  margin-left: 100px;
+}
+footer{
+  background-color: white;
+}
+.black{
+  background-color: black;
+}
+.t{
+  margin-top: -130px;
+}
+#mt{
+  margin-top: 160px;
+  margin-bottom: 170px;
+}
+#author{
+  height: 400px;
+}
+#hidden{
+  display: none;
+}
+.span{
+  display: none;
+}
+.error{
+  border: 1px solid red;
+}
+.number{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page-number{
+  display: flex;
+}
+.page-number span{
+  text-decoration: none!important;
+  background-color: #efecec;
+  border-radius: 10%;
+  margin: 5px;
+  border: 0.5px solid #949191;
+  color: #000;
+}
+li#p::marker{
+  color: rgba(255, 255, 255, 0);
+}
+.page-number li a{
+  padding: 5px 15px;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none!important;
+}
+.page-number li a:hover{
+  text-decoration: none!important;
+}
+#pets{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* #dog{
+  background-color: rgb(243, 217, 234);
+  border: 1px solid rgb(230, 111, 190);
+}
+#cat{
+  background-color: rgb(222, 217, 220);
+  border: 1px solid rgb(74, 70, 73);
+}
+#bird{
+  background-color: rgb(200, 236, 208);
+  border: 1px solid rgb(53, 129, 66);
+}
+#hamster{
+  background-color: rgb(243, 233, 205);
+  border: 1px solid rgb(195, 155, 61);
+} */
+#fooddesc{
+  background-color: #ece8e8;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

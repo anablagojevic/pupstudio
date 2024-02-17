@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "img": {
+            "path": "food1.webp",
+            "alt": "food1"
+        },
+        "title": "Salmon&White fish",
+        "price": 45,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "img": {
+            "path": "food2.webp",
+            "alt": "food2"
+        },
+        "title": "Salmon&Duck",
+        "price": 55,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 3,
+        "img": {
+            "path": "food3.webp",
+            "alt": "food3"
+        },
+        "title": "Beef&Salmon",
+        "price": 65,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 4,
+        "img": {
+            "path": "food4.webp",
+            "alt": "food4"
+        },
+        "title": "Natural eco turkey",
+        "price": 40,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 5,
+        "img": {
+            "path": "food5.webp",
+            "alt": "food5"
+        },
+        "title": "Natural eco salmon",
+        "price": 50,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 6,
+        "img": {
+            "path": "food6.webp",
+            "alt": "food6"
+        },
+        "title": "Multi-protein grain free",
+        "price": 65,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 7,
+        "img": {
+            "path": "food7.webp",
+            "alt": "food7"
+        },
+        "title": "Freeze dried beef",
+        "price": 55,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 8,
+        "img": {
+            "path": "food8.webp",
+            "alt": "food8"
+        },
+        "title": "Dried chicken spinach",
+        "price": 35,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 9,
+        "img": {
+            "path": "food9.webp",
+            "alt": "food9"
+        },
+        "title": "Freeze dried tuna",
+        "price": 35,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 1
+    },
+    {
+        "id": 10,
+        "img": {
+            "path": "toy1.webp",
+            "alt": "toy1"
+        },
+        "title": "Harness with Leash",
+        "price": 30,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 2
+    },
+    {
+        "id": 11,
+        "img": {
+            "path": "toy2.jpg",
+            "alt": "toy2"
+        },
+        "title": "Little mouse for cats",
+        "price": 20,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 2
+    },
+    {
+        "id": 12,
+        "img": {
+            "path": "toy3.jpg",
+            "alt": "toy3"
+        },
+        "title": "Toy for hamsters",
+        "price": 40,
+        "description": "This product uses clean and safe raw materials without adding unnecessary raw materials such as genetically modified raw materials and synthetic coloring agents that are harmful to the pet's health.",
+        "categoryId": 2
+    }
+]

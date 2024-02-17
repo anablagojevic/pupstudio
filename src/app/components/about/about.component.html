@@ -1,0 +1,43 @@
+<div class="container mt-5 px-5">
+    <div class="row">
+
+        <div class="col-sm-12 col-lg-5 mt-5">
+            <h1 class="font-weight-bold" style="color: rgb(0, 101, 50);">Our Story</h1>
+            <p class="text-secondary mt-3" style="line-height: 1.8;">
+                <span class="text-dark font-weight-bold">PUPSTUDIO</span> is an all in one shop offering a curated selection of 
+                quality pet products, food and toys. We live up to your high-standard, 
+                using only natural ingredients, cruelty free, and vegan products. 
+                We only curate the best organic pet food and treats made with real 
+                fresh ingredients-Non GMO, artificial coloring, or synthetic preservatives.
+                <br/>
+                <br/>
+                <span class="text-dark font-weight-bold">
+                    We only provide food and supplies that fit for humans but are made for dogs. 
+                    All of our pet food is hand-made with the high quality ingredients.
+                </span>
+            </p>
+        </div>
+
+        <div class="col-sm-12 col-lg-6"> 
+            <img src="../../../assets/images/dogs.webp" alt="author" style="height: 600px;"/>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid mt-5">
+    <div id="fooddesc">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center p-5" *ngFor="let s of services">
+                <app-about-food [aboutData]="s"></app-about-food>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 text-center">
+    <h1 class="font-weight-bold" style="color: rgb(0, 101, 50);">Our team</h1>
+    <div class="row">
+        <div class="col-lg-4 col-sm-12 text-center p-4" *ngFor="let t of team">
+            <app-team [teamData]="t"></app-team>
+        </div>
+    </div>
+</div>

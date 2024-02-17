@@ -1,0 +1,67 @@
+<div class="container my-5">
+
+    <div *ngIf="cartItems.length != 0; else noProducts">
+      <div class="row">
+          <table class="table text-center">
+              <thead>
+                <tr>
+                  <th scope="col">Image</th>
+                  <th scope="col">Product name</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Remove</th>
+                </tr>
+              </thead>
+              <tbody *ngFor="let item of cartItems">
+                <tr>
+                  <th scope="row">
+                      <img src="../../../assets/images/{{item.product.img.path}}" alt="{{item.product.img.alt}}" style="height: 40px; width: 30px;">
+                  </th>
+                  <td>{{item.product.title}}</td>
+                  <td>${{item.product.price}}</td>
+                  <td>{{item.quantity}}</td>
+                  <td><a (click)="removeFromCart(item)"><img src="../../../assets/images/trash.png" alt="Remove"/></a></td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="row float-right">
+          <h5>Total: ${{ calculateTotal() }}</h5>
+      </div>
+
+    </div>
+
+    <ng-template #noProducts>
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="font-weight-bold" style="color: rgba(0, 101, 50, 0.73);">Your cart is empty!</h2>
+        <p class="text-muted" style="font-size: large;">Take a look at our <a routerLink="/products" class="text-dark">products</a> and add some to you cart!</p>
+        </div>
+      </div>
+    </ng-template>
+
+</div>
+
+<div class="container pt-5">
+  <div class="row">
+    <div class="col-md-7">
+      <img src="../../../../assets/images/box.webp" class="card-img"/>
+    </div>
+    <div class="col-md-5">
+        <h2 class="font-weight-bold" style="color: rgb(0, 101, 50);">Shipping and returns</h2>
+        <p class="text-muted mt-3">
+          Unless it has issues to the state of food, once opened we regret that we cannot, by law, 
+          accept returns of any Food, Treats and Supplements including all flea and tick’s treatments and wormers.
+          <br>
+          <br>
+          We are happy to offer a Return for any item within 7 days after receipt. The item must be re-saleable 
+          (by this, we mean that it can be sold to another customer in an ‘as new’ state.) 
+          Please make sure to put the item in a box as you received it before returning it. 
+          <br>
+          <br>
+          Shipping cost will be deducted from your refund for the return fees.
+        </p>
+    </div>
+  </div>
+</div>

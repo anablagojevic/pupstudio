@@ -1,0 +1,30 @@
+<div class="container my-5 d-flex justify-content-center">
+    <div class="card mb-3 border-white" style="max-width: 1000px;">
+        <div class="row mb-5">
+            <div class="col-md-5">
+                <img src="../../../assets/images/{{product.img.path}}" class="card-img" alt="{{product.img.alt}}">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <h2 class="card-text">{{product.title}} pet food</h2>
+                    <h4 class="card-title">${{product.price}}.00</h4>
+                    <h5 class="card-text text-muted mt-3">Product description</h5>
+                    <p class="text-justify">{{product.description}}</p>
+                    <p class="text-justify font-weight-bold" [hidden]="!showDescription">{{product.description}}</p>
+                    <hr class="my-4"/>
+                    <button type="button" class="btn ml-3 py-2 px-5" style="border: 1px solid rgb(0, 101, 50);">
+                        <a routerLink="/products" class="text-dark">View more products</a>
+                    </button>
+                    <button type="button" class="btn mx-4 py-2 px-5" style="border: 1px solid rgb(0, 101, 50);" (click)="addToCart(product)">
+                        <a class="text-dark">{{addedToCart}}</a>
+                    </button>
+                    <p class="mt-4" style="font-size: large;">
+                        <img class="pb-1" src="../../../assets/images/delivery.png"/>
+                        <span class="font-weight-bold"> Estimated delivery :</span> 1 - 5 days
+                    </p>
+                    <img class="pb-1" src="../../../assets/images/cards2.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
