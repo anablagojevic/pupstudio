@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "img": {
+            "path": "dogicon.png",
+            "alt": "Puppy-icon"
+        },
+        "title": "Fussy eaters love",
+        "description": "The smell and taste of fresh food is utterly irresistible, so there’ll be no leftovers."
+    },
+    {
+        "id": 2,
+        "img": {
+            "path": "foodicon.png",
+            "alt": "Food-icon"
+        },
+        "title": "Good food, good looks",
+        "description": "Balanced diets, like the ones formulated by Natural Core, prevent excessive weight gain and ensure every bite of your pup’s food is packed with good nutrition"
+    },
+    {
+        "id": 3,
+        "img": {
+            "path": "bellyicon.png",
+            "alt": "Belly-icon"
+        },
+        "title": "Easy on the tummy",
+        "description": "Fresh dog food diet rich in immune-boosting antioxidants and high-quality protein helps ward off a number of ailments."
+    }
+]

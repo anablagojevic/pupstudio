@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": {
+            "path": "doctor.jpg",
+            "alt": "Maria"
+        },
+        "title": "Maria",
+        "description": "Our main caracter in the food making proccess. She makes recipies for every product! Feel free to contact her if you have questions about food ingridients.",
+        "contact": "maria.pupstudio@gmail.com"
+    },
+    {
+        "id": 2,
+        "img": {
+            "path": "doctor2.jpg",
+            "alt": "Petar"
+        },
+        "title": "Petar",
+        "description": "Maria's asistant and our second caracter in the pet food making proccess. Animal lover, he makes the most delicious food for you favourive pet!",
+        "contact": "petar.pupstudio@gmail.com"
+    },
+    {
+        "id": 3,
+        "img": {
+            "path": "designer.jpg",
+            "alt": "Sophia"
+        },
+        "title": "Sophia",
+        "description": "Every pet toy you see in our collection is designed by her! She always explore and tries to make the most interesting toys for your little ones!",
+        "contact": "sophia.pupstudio@gmail.com"
+    }
+]

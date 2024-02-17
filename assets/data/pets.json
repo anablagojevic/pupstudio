@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dogs",
+        "img": {
+            "path": "dog1.png",
+            "alt": "Dog-icon"
+        },
+        "cssId": "dog"
+    },
+    {
+        "id": 2,
+        "name": "Cats",
+        "img": {
+            "path": "cat1.png",
+            "alt": "Cat-icon"
+        },
+        "cssId": "cat"
+    },
+    {
+        "id": 3,
+        "name": "Birds",
+        "img": {
+            "path": "parrot1.png",
+            "alt": "Parrot-icon"
+        },
+        "cssId": "bird"
+    },
+    {
+        "id": 4,
+        "name": "Hamsters",
+        "img": {
+            "path": "hamster1.png",
+            "alt": "Hamster-icon"
+        },
+        "cssId": "hamster"
+    }
+]
